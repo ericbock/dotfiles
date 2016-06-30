@@ -3,3 +3,5 @@
 	email = eric_bock@ultimatesoftware.com
 [color]
 	ui = true
+[credential]
+	helper = osxkeychain
