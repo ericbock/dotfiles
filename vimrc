@@ -1,4 +1,9 @@
-execute pathogen#infect()
+call plug#begin('~/.vim/bundle')
+Plug 'tpope/vim-sensible'
+Plug 'kien/ctrlp.vim'
+Plug 'nanotech/jellybeans.vim'
+call plug#end()
+
 syntax on
 filetype plugin indent on
 
