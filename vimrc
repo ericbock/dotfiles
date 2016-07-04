@@ -1,6 +1,9 @@
 call plug#begin('~/.vim/bundle')
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
+Plug 'jmcantrell/vim-virtualenv'
+Plug 'vim-airline/vim-airline'
 Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
