@@ -55,3 +55,8 @@ function parse_git_dirty {
 }
 
 export PS1="\`parse_git_branch\`\u@\h [\w] \\$ "
+
+# virtualenv support
+export WORKON_HOME=$HOME/.envs
+export PROJECT_HOME=$HOME/projects
+source /usr/local/bin/virtualenvwrapper.sh
