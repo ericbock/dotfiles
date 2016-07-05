@@ -7,3 +7,5 @@
 	helper = osxkeychain
 [push]
 	default = simple
+[core]
+	excludesfile = /Users/ericbock/.gitignore_global
