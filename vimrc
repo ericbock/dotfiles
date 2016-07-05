@@ -5,6 +5,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
@@ -56,6 +57,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_log_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
+
+" airline settings
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
