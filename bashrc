@@ -60,3 +60,7 @@ export PS1="\`parse_git_branch\`\u@\h [\w] \\$ "
 export WORKON_HOME=$HOME/.envs
 export PROJECT_HOME=$HOME/projects
 source /usr/local/bin/virtualenvwrapper.sh
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+      . $(brew --prefix)/etc/bash_completion
+fi
