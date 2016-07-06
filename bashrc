@@ -6,6 +6,7 @@ export LSCOLORS=ExGxBxDxCxEgEdxbxhxcxd
 
 alias ls='ls -Fh'
 alias la='ls -aFh'
+alias ll='ls -alFh'
 
 # get current branch in git repo
 function parse_git_branch() {
