@@ -48,6 +48,8 @@ set wrap
 
 set list
 
+set showcmd
+
 " syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
