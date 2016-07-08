@@ -7,6 +7,7 @@ export LSCOLORS=ExGxBxDxCxEgEdxbxhxcxd
 alias ls='ls -Fh'
 alias la='ls -aFh'
 alias ll='ls -alFh'
+alias localip='ipconfig getifaddr en0'
 
 # get current branch in git repo
 function parse_git_branch() {
