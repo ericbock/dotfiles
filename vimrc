@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/bundle')
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-vinegar'
 Plug 'kien/ctrlp.vim'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'scrooloose/syntastic'
