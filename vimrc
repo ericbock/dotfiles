@@ -65,6 +65,9 @@ let g:syntastic_check_on_wq = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
+" ctrlp settings
+let g:ctrlp_extensions = ['tag']
+
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
 au BufRead,BufNewFile *.py,*pyw set expandtab
