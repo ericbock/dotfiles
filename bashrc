@@ -14,6 +14,9 @@ alias shield='cd ~/projects/shield/'
 alias bsd='cd ~/projects/bsd-core/'
 
 alias g='git'
+alias gd='git diff'
+alias gs='git status'
+alias gl='git log'
 
 alias localip='ipconfig getifaddr en0'
 
