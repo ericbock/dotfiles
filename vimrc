@@ -11,6 +11,7 @@ Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'nanotech/jellybeans.vim'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 syntax on
