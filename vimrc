@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/bundle')
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
+Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
@@ -80,6 +81,9 @@ let g:ctrlp_extensions = ['tag']
 
 " tagbar settings
 nmap <F8> :TagbarToggle<CR>
+
+" fugitive-gitlab settings
+let g:fugitive_gitlab_domains=['http://gitlab']
 
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
