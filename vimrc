@@ -72,6 +72,9 @@ let g:airline#extensions#tabline#enabled = 1
 " ctrlp settings
 let g:ctrlp_extensions = ['tag']
 
+" tagbar settings
+nmap <F8> :TagbarToggle<CR>
+
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
 au BufRead,BufNewFile *.py,*pyw set expandtab
