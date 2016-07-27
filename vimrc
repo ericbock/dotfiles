@@ -72,6 +72,8 @@ let g:syntastic_auto_log_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 
+let g:syntastic_html_tidy_quiet_messages = { "regex": "proprietary attribute" }
+
 " airline settings
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
