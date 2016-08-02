@@ -7,6 +7,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'kien/ctrlp.vim'
+Plug 'janko-m/vim-test'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
@@ -88,6 +89,10 @@ nmap <F8> :TagbarToggle<CR>
 
 " fugitive-gitlab settings
 let g:fugitive_gitlab_domains=['http://gitlab']
+
+" vim-test settings
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
 
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
