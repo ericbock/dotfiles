@@ -56,6 +56,8 @@ set list
 
 set showcmd
 
+map <space> <leader>
+
 " easier window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
