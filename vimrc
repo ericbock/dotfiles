@@ -7,6 +7,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'kien/ctrlp.vim'
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'janko-m/vim-test'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'scrooloose/syntastic'
@@ -58,12 +59,6 @@ set list
 set showcmd
 
 map <space> <leader>
-
-" easier window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
 
 " syntastic settings
 set statusline+=%#warningmsg#
