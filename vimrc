@@ -15,6 +15,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'nanotech/jellybeans.vim'
 Plug 'majutsushi/tagbar'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 syntax on
@@ -88,6 +89,18 @@ let g:fugitive_gitlab_domains=['http://gitlab']
 " vim-test settings
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
+
+" ag settings
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+endif
 
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
