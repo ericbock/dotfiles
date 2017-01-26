@@ -134,3 +134,7 @@ endif
 " python settings
 au BufRead,BufNewFile *.py,*pyw set shiftwidth=4
 au BufRead,BufNewFile *.py,*pyw set expandtab
+
+" java settings
+au BufRead,BufNewFile *.java set shiftwidth=4
+au BufRead,BufNewFile *.java set expandtab
