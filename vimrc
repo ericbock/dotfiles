@@ -17,6 +17,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'nanotech/jellybeans.vim'
 Plug 'majutsushi/tagbar'
 Plug 'mattn/emmet-vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 syntax on
